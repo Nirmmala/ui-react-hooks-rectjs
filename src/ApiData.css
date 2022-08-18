@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: left;
+    background-color: antiquewhite;
+    padding: 40px;
+    
+}
+td,th{
+    /* border: 1px solid white; */
+    border-spacing: 10px;
+    
+}
+
+h1{
+    text-align: center;
+    background-color: tomato;
+    color: white;
+    padding : 20px;
+}
+h2{
+    margin: 40px;
+}
+table{
+    background-color: bisque;
+    margin: 40px;
+   border: 4px solid white;
+   border-collapse: collapse;
+   /* border-spacing: 10px; */
+
+}
+th{
+    padding: 5px 10px;
+    text-align: left;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+td{
+    padding: 10px;
+}
+
+th:hover{
+    background-color: aquamarine;
+}
